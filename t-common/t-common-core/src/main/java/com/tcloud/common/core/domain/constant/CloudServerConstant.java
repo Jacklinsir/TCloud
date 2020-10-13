@@ -6,7 +6,7 @@ package com.tcloud.common.core.domain.constant;
  * TCloudServerConstant
  * Created by laiql on 2020/10/13 17:14.
  */
-public interface TCloudServerConstant
+public interface CloudServerConstant
 {
 
     String TCloud_AUTH = "TCloud-Auth";

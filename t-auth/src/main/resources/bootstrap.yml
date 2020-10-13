@@ -1,4 +1,6 @@
 spring:
+  main:
+    allow-bean-definition-overriding: true
   application:
     name: T-Auth
   cloud:
@@ -13,17 +15,17 @@ spring:
   thymeleaf:
     cache: false
 
-logging:
-  level:
-    org:
-      springframework:
-        boot:
-          actuate:
-            endpoint:
-              EndpointId: error
-    com:
-      alibaba:
-        cloud:
-          nacos:
-            client:
-              NacosPropertySourceBuilder: error
+#logging:
+#  level:
+#    org:
+#      springframework:
+#        boot:
+#          actuate:
+#            endpoint:
+#              EndpointId: error
+#    com:
+#      alibaba:
+#        cloud:
+#          nacos:
+#            client:
+#              NacosPropertySourceBuilder: error

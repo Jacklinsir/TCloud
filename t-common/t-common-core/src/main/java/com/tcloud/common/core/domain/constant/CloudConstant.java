@@ -7,7 +7,7 @@ package com.tcloud.common.core.domain.constant;
  * Created by laiql on 2020/10/13 17:14.
  */
 
-public interface TCloudConstant
+public interface CloudConstant
 {
 
     /**

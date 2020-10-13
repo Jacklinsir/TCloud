@@ -14,7 +14,6 @@ import me.zhyd.oauth.model.AuthUser;
 import me.zhyd.oauth.request.AuthRequest;
 import me.zhyd.oauth.utils.AuthStateUtils;
 import org.apache.commons.lang3.StringUtils;
-import org.springframework.beans.factory.annotation.Value;
 import org.springframework.security.oauth2.common.OAuth2AccessToken;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
@@ -44,7 +43,7 @@ public class SocialLoginController
     private static final String TYPE_BIND = "bind";
 
     private final SocialLoginService socialLoginService;
-    @Value("${febs.frontUrl}")
+//    @Value("${tcloud.frontUrl}")
     private String frontUrl;
 
 

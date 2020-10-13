@@ -23,6 +23,7 @@ public class TCloudAuthApplication
 
     public static void main(String[] args)
     {
-        new SpringApplicationBuilder(TCloudAuthApplication.class).web(WebApplicationType.SERVLET).run(args);
+        new SpringApplicationBuilder(TCloudAuthApplication.class)
+                .web(WebApplicationType.SERVLET).run(args);
     }
 }

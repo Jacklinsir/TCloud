@@ -1,6 +1,6 @@
 package com.tcloud.common.security.configure;
 
-import com.tcloud.common.core.constant.CloudConstant;
+import com.tcloud.common.core.domain.constant.CloudConstant;
 import com.tcloud.common.core.toolkit.T;
 import com.tcloud.common.security.handler.TCloudAccessDeniedHandler;
 import com.tcloud.common.security.handler.TCloudAuthExceptionEntryPoint;

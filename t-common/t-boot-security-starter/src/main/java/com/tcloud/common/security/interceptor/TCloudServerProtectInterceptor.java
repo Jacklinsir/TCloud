@@ -1,6 +1,6 @@
 package com.tcloud.common.security.interceptor;
 
-import com.tcloud.common.core.constant.CloudConstant;
+import com.tcloud.common.core.domain.constant.CloudConstant;
 import com.tcloud.common.core.result.CommonResult;
 import com.tcloud.common.core.toolkit.T;
 import com.tcloud.common.security.properties.TCloudSecurityProperties;

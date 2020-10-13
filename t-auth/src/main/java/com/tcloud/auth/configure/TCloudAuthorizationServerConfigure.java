@@ -43,11 +43,12 @@ public class TCloudAuthorizationServerConfigure extends AuthorizationServerConfi
     private final AuthenticationManager authenticationManager;
     private final UserDetailsService userDetailService;
     private final PasswordEncoder passwordEncoder;
-    private final TCloudWebResponseExceptionTranslator exceptionTranslator;
+    private final TCloudWebResponseExceptionTranslator tCloudWebResponseExceptionTranslator;
     private final TCloudAuthProperties properties;
     private final RedisAuthenticationCodeService authenticationCodeService;
     private final RedisClientDetailsService redisClientDetailsService;
     private final RedisConnectionFactory redisConnectionFactory;
+
 
     @Override
     public void configure(ClientDetailsServiceConfigurer clients) throws Exception
@@ -59,7 +60,10 @@ public class TCloudAuthorizationServerConfigure extends AuthorizationServerConfi
     @SuppressWarnings("unchecked")
     public void configure(AuthorizationServerEndpointsConfigurer endpoints)
     {
-        endpoints.tokenStore(tokenStore()).userDetailsService(userDetailService).authorizationCodeServices(authenticationCodeService).authenticationManager(authenticationManager).exceptionTranslator(exceptionTranslator);
+        endpoints.tokenStore(tokenStore()).userDetailsService(userDetailService)
+                .authorizationCodeServices(authenticationCodeService)
+                .authenticationManager(authenticationManager)
+                .exceptionTranslator(tCloudWebResponseExceptionTranslator);
         if (properties.getEnableJwt())
         {
             endpoints.accessTokenConverter(jwtAccessTokenConverter());
@@ -122,5 +126,4 @@ public class TCloudAuthorizationServerConfigure extends AuthorizationServerConfi
     {
         return new DefaultOAuth2RequestFactory(redisClientDetailsService);
     }
-
 }

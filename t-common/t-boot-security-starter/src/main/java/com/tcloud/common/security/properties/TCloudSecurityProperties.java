@@ -1,6 +1,6 @@
 package com.tcloud.common.security.properties;
 
-import com.tcloud.common.core.constant.EndpointConstant;
+import com.tcloud.common.core.domain.constant.EndpointConstant;
 import lombok.Data;
 import org.springframework.boot.context.properties.ConfigurationProperties;
 

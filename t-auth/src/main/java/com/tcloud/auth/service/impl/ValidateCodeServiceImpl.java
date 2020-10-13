@@ -5,7 +5,7 @@ import com.tcloud.auth.properties.TCloudValidateCodeProperties;
 import com.tcloud.auth.service.ValidateCodeService;
 import com.tcloud.common.core.domain.constant.ImageTypeConstant;
 import com.tcloud.common.core.domain.constant.ParamsConstant;
-import com.tcloud.common.core.domain.constant.TCloudConstant;
+import com.tcloud.common.core.domain.constant.CloudConstant;
 import com.tcloud.common.core.exception.ValidateCodeException;
 import com.tcloud.common.redis.service.RedisService;
 import com.wf.captcha.GifCaptcha;
@@ -46,14 +46,14 @@ public class ValidateCodeServiceImpl implements ValidateCodeService
         setHeader(response, code.getType());
 
         Captcha captcha = createCaptcha(code);
-        redisService.set(TCloudConstant.CODE_PREFIX + key, StringUtils.lowerCase(captcha.text()), code.getTime());
+        redisService.set(CloudConstant.CODE_PREFIX + key, StringUtils.lowerCase(captcha.text()), code.getTime());
         captcha.out(response.getOutputStream());
     }
 
     @Override
     public void check(String key, String value) throws ValidateCodeException
     {
-        Object codeInRedis = redisService.get(TCloudConstant.CODE_PREFIX + key);
+        Object codeInRedis = redisService.get(CloudConstant.CODE_PREFIX + key);
         if (StringUtils.isBlank(value))
         {
             throw new ValidateCodeException("请输入验证码");

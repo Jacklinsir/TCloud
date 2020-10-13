@@ -4,7 +4,7 @@ import com.tcloud.auth.mapper.MenuMapper;
 import com.tcloud.auth.mapper.UserMapper;
 import com.tcloud.auth.mapper.UserRoleMapper;
 import com.tcloud.common.core.domain.constant.StringConstant;
-import com.tcloud.common.core.domain.constant.TCloudConstant;
+import com.tcloud.common.core.domain.constant.CloudConstant;
 import com.tcloud.common.core.domain.system.Menu;
 import com.tcloud.common.core.domain.system.SystemUser;
 import com.tcloud.common.core.domain.system.UserDataPermission;
@@ -88,7 +88,7 @@ public class UserManager
         UserRole userRole = new UserRole();
         userRole.setUserId(systemUser.getUserId());
         // 注册用户角色 ID
-        userRole.setRoleId(TCloudConstant.REGISTER_ROLE_ID);
+        userRole.setRoleId(CloudConstant.REGISTER_ROLE_ID);
         this.userRoleMapper.insert(userRole);
         return systemUser;
     }
