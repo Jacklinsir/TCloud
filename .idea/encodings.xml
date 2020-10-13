@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding" native2AsciiForPropertiesFiles="true" defaultCharsetForPropertiesFiles="UTF-8">
+    <file url="file://$PROJECT_DIR$/t-apm/t-admin/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/t-auth/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/t-common/t-boot-apidoc-starter/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/t-common/t-boot-datasource-starter/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/t-common/t-boot-logging-starter/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/t-common/t-boot-redis-starter/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/t-common/t-boot-security-starter/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/t-common/t-common-core/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/t-common/t-common-depend/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/t-gateway/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/t-server/t-system/src/main/java" charset="UTF-8" />
+    <file url="PROJECT" charset="UTF-8" />
+  </component>
+</project>

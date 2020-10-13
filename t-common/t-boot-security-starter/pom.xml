@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <parent>
+        <artifactId>t-common</artifactId>
+        <groupId>com.tcloud.common</groupId>
+        <version>1.0</version>
+    </parent>
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>com.tcloud.common.security</groupId>
+    <artifactId>t-boot-security-starter</artifactId>
+    <packaging>jar</packaging>
+    <name>T-Boot-Security-Starter</name>
+    <description>服务安全模块</description>
+
+    <properties>
+        <t-common-core.version>1.0</t-common-core.version>
+    </properties>
+    <dependencies>
+        <dependency>
+            <groupId>com.tcloud.common.core</groupId>
+            <artifactId>t-common-core</artifactId>
+            <version>${t-common-core.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-configuration-processor</artifactId>
+            <optional>true</optional>
+        </dependency>
+    </dependencies>
+</project>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <parent>
+        <artifactId>t-cloud</artifactId>
+        <groupId>com.tcloud</groupId>
+        <version>1.0</version>
+        <relativePath>../t-cloud/pom.xml</relativePath>
+    </parent>
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>com.tcloud.common</groupId>
+    <artifactId>t-common</artifactId>
+    <name>T-Common</name>
+    <modules>
+        <module>t-common-core</module>
+        <module>t-boot-datasource-starter</module>
+        <module>t-boot-redis-starter</module>
+        <module>t-common-depend</module>
+        <module>t-boot-apidoc-starter</module>
+        <module>t-boot-logging-starter</module>
+        <module>t-boot-security-starter</module>
+    </modules>
+    <packaging>pom</packaging>
+    <description>T-Common通用模块</description>
+</project>

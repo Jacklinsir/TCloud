@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="t-boot-security-starter" />
+        <module name="t-boot-redis-starter" />
+        <module name="t-boot-datasource-starter" />
+        <module name="t-common-core" />
+        <module name="t-admin" />
+        <module name="t-common-depend" />
+        <module name="t-gateway" />
+        <module name="t-system" />
+        <module name="t-auth" />
+        <module name="t-boot-logging-starter" />
+        <module name="t-boot-apidoc-starter" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="t-admin" target="1.8" />
+      <module name="t-apm" target="1.8" />
+      <module name="t-auth" target="1.8" />
+      <module name="t-boot-apidoc-starter" target="1.8" />
+      <module name="t-boot-datasource-starter" target="1.8" />
+      <module name="t-boot-logging-starter" target="1.8" />
+      <module name="t-boot-redis-starter" target="1.8" />
+      <module name="t-boot-security-starter" target="1.8" />
+      <module name="t-cloud" target="1.8" />
+      <module name="t-common" target="1.8" />
+      <module name="t-common-core" target="1.8" />
+      <module name="t-common-depend" target="1.8" />
+      <module name="t-gateway" target="1.8" />
+      <module name="t-server" target="1.8" />
+      <module name="t-system" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="t-admin" options="-parameters" />
+      <module name="t-apm" options="-parameters" />
+      <module name="t-auth" options="-parameters" />
+      <module name="t-boot-apidoc-starter" options="-parameters" />
+      <module name="t-boot-datasource-starter" options="-parameters" />
+      <module name="t-boot-logging-starter" options="-parameters" />
+      <module name="t-boot-redis-starter" options="-parameters" />
+      <module name="t-boot-security-starter" options="-parameters" />
+      <module name="t-common" options="-parameters" />
+      <module name="t-common-core" options="-parameters" />
+      <module name="t-common-depend" options="-parameters" />
+      <module name="t-gateway" options="-parameters" />
+      <module name="t-server" options="-parameters" />
+      <module name="t-system" options="-parameters" />
+    </option>
+  </component>
+</project>

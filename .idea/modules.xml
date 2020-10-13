@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/t-apm/t-admin/t-admin.iml" filepath="$PROJECT_DIR$/t-apm/t-admin/t-admin.iml" />
+      <module fileurl="file://$PROJECT_DIR$/t-apm/t-apm.iml" filepath="$PROJECT_DIR$/t-apm/t-apm.iml" />
+      <module fileurl="file://$PROJECT_DIR$/t-auth/t-auth.iml" filepath="$PROJECT_DIR$/t-auth/t-auth.iml" />
+      <module fileurl="file://$PROJECT_DIR$/t-common/t-boot-apidoc-starter/t-boot-apidoc-starter.iml" filepath="$PROJECT_DIR$/t-common/t-boot-apidoc-starter/t-boot-apidoc-starter.iml" />
+      <module fileurl="file://$PROJECT_DIR$/t-common/t-boot-datasource-starter/t-boot-datasource-starter.iml" filepath="$PROJECT_DIR$/t-common/t-boot-datasource-starter/t-boot-datasource-starter.iml" />
+      <module fileurl="file://$PROJECT_DIR$/t-common/t-boot-logging-starter/t-boot-logging-starter.iml" filepath="$PROJECT_DIR$/t-common/t-boot-logging-starter/t-boot-logging-starter.iml" />
+      <module fileurl="file://$PROJECT_DIR$/t-common/t-boot-redis-starter/t-boot-redis-starter.iml" filepath="$PROJECT_DIR$/t-common/t-boot-redis-starter/t-boot-redis-starter.iml" />
+      <module fileurl="file://$PROJECT_DIR$/t-common/t-boot-security-starter/t-boot-security-starter.iml" filepath="$PROJECT_DIR$/t-common/t-boot-security-starter/t-boot-security-starter.iml" />
+      <module fileurl="file://$PROJECT_DIR$/t-cloud/t-cloud.iml" filepath="$PROJECT_DIR$/t-cloud/t-cloud.iml" />
+      <module fileurl="file://$PROJECT_DIR$/t-common/t-common.iml" filepath="$PROJECT_DIR$/t-common/t-common.iml" />
+      <module fileurl="file://$PROJECT_DIR$/t-common/t-common-core/t-common-core.iml" filepath="$PROJECT_DIR$/t-common/t-common-core/t-common-core.iml" />
+      <module fileurl="file://$PROJECT_DIR$/t-common/t-common-depend/t-common-depend.iml" filepath="$PROJECT_DIR$/t-common/t-common-depend/t-common-depend.iml" />
+      <module fileurl="file://$PROJECT_DIR$/t-gateway/t-gateway.iml" filepath="$PROJECT_DIR$/t-gateway/t-gateway.iml" />
+      <module fileurl="file://$PROJECT_DIR$/t-server/t-server.iml" filepath="$PROJECT_DIR$/t-server/t-server.iml" />
+      <module fileurl="file://$PROJECT_DIR$/t-server/t-system/t-system.iml" filepath="$PROJECT_DIR$/t-server/t-system/t-system.iml" />
+    </modules>
+  </component>
+</project>
