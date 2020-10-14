@@ -14,8 +14,12 @@ import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
 
 /**
- * @author MrBird
+ * Description: 资源拦截器
+ * <br/>
+ * TCloudServerProtectInterceptor
+ * Created by laiql on 2020/10/14 10:42.
  */
+
 public class TCloudServerProtectInterceptor implements HandlerInterceptor
 {
 
